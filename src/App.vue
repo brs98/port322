@@ -2,7 +2,10 @@
   <div id="app">
     <div id="nav">
       <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/education">A Educação no Brasil</router-link> |
+      <router-link to="/technology">A Tecnologia</router-link> |
+      <router-link to="/peer">Peer Review</router-link> |
+      <router-link to="/map">Mapa Semântico</router-link>
     </div>
     <router-view/>
   </div>
