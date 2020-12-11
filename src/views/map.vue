@@ -1,5 +1,32 @@
 <template>
-  <div class="4">
-    <h1>Trabalho 4</h1>
+  <div class="container">
+    <h1>Descrição de Pessoa</h1>
+    <h2>Meu pai, Ryan</h2>
+    <div class="link-container">
+      <Link name="Mapa Semântico" filename="map.jpg" pathname="https://docs.google.com/document/d/19Vxbm8MHagjNj2zRIFD-VRq-Ah9tmoAJRxAzq5ko3NA/edit?usp=sharing" />
+    </div>
   </div>
 </template>
+
+<script>
+
+import Link from '../components/Link.vue';
+export default {
+  name: 'Technology',
+  components: {
+    Link
+  }
+
+}
+
+</script>
+
+<style scoped>
+
+  .link-container {
+    border-style: solid;
+    border-radius: 12px;
+    border-color: #42b983;
+  }
+
+</style>
